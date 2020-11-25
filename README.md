@@ -4,8 +4,8 @@
 - Make sure that you have `quicklisp` installed
 - Clone this repository into some `ql:*local-project-directories*`
 - Load the library with `(ql:quickload :make-project)`
-- Create your new project with `(prj:new "insert-awesome-project-name-here")`
-- If you want to initialize with dependencies: `(prj:new "project-name" "dep-1" "dep-2")`
+- Create your new project with `(prj:new :insert-awesome-project-name-here)`
+- If you want to initialize with dependencies: `(prj:new :project-name :dep-1 :dep-2)`
 ## Dependencies
 - ASDF (included in most implementations)
 - quicklisp
