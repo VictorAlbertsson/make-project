@@ -15,5 +15,3 @@
 - `make-project` currently is not on `quicklisp`, however this might change
 ## API
 - `new`
-- `make-asdf-system`
-- `make-packages`
