@@ -22,7 +22,7 @@
                          (list name*))
                  :name name*
                  :type "asd")))
-    (declare (type (pathname) path))
+    (declare (type pathname path))
     (with-open-file (file (ensure-directories-exist path)
                           :direction :output
                           :if-does-not-exist :create
@@ -50,8 +50,8 @@
                               (list name* subdir))
                       :name "main"
                       :type "lisp")))
-    (declare (type (pathname) all-file))
-    (declare (type (pathname) main-file))
+    (declare (type pathname all-file))
+    (declare (type pathname main-file))
     (with-open-file (file (ensure-directories-exist all-file)
                           :direction :output
                           :if-does-not-exist :create
